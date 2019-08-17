@@ -4,11 +4,16 @@ import './App.css';
 class App extends Component {
   state = { items: [] };
 
+
+  
   async componentDidMount() {
     const response = await fetch('/api/items');
     const { items } = await response.json();
     this.setState({ items });
   }
+
+
+
 
   render() {
     return (

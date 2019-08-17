@@ -2,7 +2,7 @@
 
 const items = [
   {
-    id: 'HAMMER-1234',
+    id: 'HAMMEdfdfdR-1234',
     name: 'Hammer',
   },
   {
